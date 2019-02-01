@@ -29,7 +29,7 @@ FactoryGirl.define do
     trait :accepted do
       sequence(:image) { |n| File.new("#{Rails.root}/spec/fixtures/images/projects/#{(n%7)+1}.jpg") }
       sequence(:caption) { |n| (n % 5).zero? ? nil : Faker::Company.bs }
-      source_url "https://github.com/tsurupin"
+      source_url "https://github.com/webdev730"
       accepted true
       description do
         random_i = rand(3)

@@ -29,6 +29,6 @@ feature 'User transits to the each page', js: true do
 
   scenario 'they move to the git hub page' do
     find("button[name='git-hub-button']").click
-    expect(current_path).to eq '/tsurupin'
+    expect(current_path).to eq '/webdev730'
   end
 end

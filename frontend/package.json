@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio config",
   "main": "index.js",
-  "repository": "git@github.com:tsurupin/portfolio.git",
+  "repository": "git@github.com:webdev730/webdev730_Blog_Portfolio_CMS.git",
   "scripts": {
     "test": "BABEL_DISABLE_CACHE=1 NODE_ENV=test NODE_PATH=./src mocha --compilers js:babel-core/register --require ignore-styles --require ./test/helpers/index.js --recursive ./test/",
     "test:watch": "npm run test -- --watch",

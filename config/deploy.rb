@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.6.0'
 
-set :application, 'portfolio'
-set :repo_url, 'git@github.com:tsurupin/portfolio.git'
+set :application, 'webdev730_Blog_Portfolio_CMS'
+set :repo_url, 'git@github.com:webdev730/webdev730_Blog_Portfolio_CMS.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -10,11 +10,11 @@ set :repo_url, 'git@github.com:tsurupin/portfolio.git'
 # Default deploy_to directory is /var/www/my_app_name
 rails_env = ENV['RACK_ENV'] || 'development'
 
-app_path = '/var/www/portfolio'
+app_path = '/var/www/webdev730_Blog_Portfolio_CMS'
 set :deploy_to, app_path
 
 set :ssh_options, {
-  keys: %w(~/.ssh/portfolio.pem),
+  keys: %w(~/.ssh/webdev730_Blog_Portfolio_CMS.pem),
   forward_agent: true,
   auth_methods: %w(publickey)
 }

@@ -1,7 +1,4 @@
-[![CircleCI](https://circleci.com/gh/tsurupin/portfolio.svg?style=svg)](https://circleci.com/gh/tsurupin/portfolio)
-[![Code Climate](https://codeclimate.com/github/tsurupin/portfolio/badges/gpa.svg)](https://codeclimate.com/github/tsurupin/portfolio)
-
-# [Portfolio](http://staging.tsurupin.com)
+# Portfolio
 
 
 
@@ -12,14 +9,11 @@ Demo
 -------
 ![](https://cloud.githubusercontent.com/assets/1782169/17211740/27c54d5a-5506-11e6-8bb3-fc89a71c718b.gif)
 ### client
-Live version: [http://staging.tsurupin.com](http://staging.tsurupin.com)
 
 
 ![](https://cloud.githubusercontent.com/assets/1782169/17213387/2d61cda2-550f-11e6-95a7-42f0899546b1.gif)
 
 ### cms
-
-Live version: [http://staging.tsurupin.com/cms](http://staging.tsurupin.com/cms)
 
 #### sample account
 You can sign in to the demo account with the following info.
@@ -59,7 +53,7 @@ Development
 ### Setup
 1. Get the code.
 
-        % git clone git@github.com:tsurupin/portfolio.git
+        % git clone https://github.com/webdev730/webdev730_Blog_Portfolio_CMS.git
 
 2. Setup your environment.
 
@@ -93,7 +87,3 @@ License
 -------
  The project is available as open source under the terms of the MIT License.
 
-
-Troubleshooting
--------
- Please create an [issue](https://github.com/tsurupin/portfolio/issues).

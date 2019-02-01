@@ -9,9 +9,9 @@
 #
 
 url_list = [
-  'https://github.com/tsurupin',
-  'https://www.facebook.com/tomoaki.tsuruta.7',
-  'https://twitter.com/t_th112',
+  'https://github.com/webdev730',
+  'https://www.facebook.com',
+  'https://twitter.com',
   'https://linkeding.com'
 ]
 
